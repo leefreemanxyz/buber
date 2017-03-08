@@ -1,12 +1,26 @@
 class SpaceTaxi
 
-  #make self availabe
+  def initialize
+  end
 
-  #make self unavailable
+  #spacetaxi.pick up passenger
+  def pickup_passenger
 
-  #go to pickup address
+  end
 
-  #go to dropoff address
+  #spacetaxi.arrive at destination
+  def drive_to_destination
 
+  end
+
+  #spacetaxi.request payment
+  def request_payment
+
+  end
+
+  #spacetaxi. announce available
+  def announce_available
+
+  end
 
 end

@@ -7,19 +7,23 @@ class Passenger
     @age = age
   end
 
-  #gets list of taxis (spacetaxi.listAvailable)
-  def request_available_taxis
+  #passenger.select taxi
+  def select_taxi(available_taxis)
 
   end
 
-
-  #pay taxi
-  def pay_taxi
+  #passenger.set pickup address
+  def set_pickup_address
 
   end
 
-  #leave taxi
-  def leave_taxi
+  #passenger.set dropoff address
+  def set_dropoff_address
+
+  end
+
+  #passenger.pay
+  def pay_driver
 
   end
 

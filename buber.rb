@@ -4,22 +4,33 @@ class Buber
     @space_taxis = []
     @passengers = []
   end
-  #list available taxis
-  def list_available_taxis
+   #register_passenger
+   def register_passenger
+
+   end
+   #list available taxis
+   def available_taxis
+
+   end
+
+   #make taxi unavailable
+   def make_unavailable
+
+   end
+  def run
+    #buber.register_passenger
+    #buber.list available taxis
+    #passenger.select taxi
+    #buber. tell taxi unavailable
+    #passenger.set pickup address
+    #spacetaxi.pick up passenger
+    #passenger.set dropoff address
+    #spacetaxi.arrive at destination
+    #spacetaxi.request payment
+    #passenger.pay
+    #spacetaxi. announce available
+
 
   end
-  def register_passengers(passenger)
-    @passengers << passenger
-  end
-  #set pickup address
-  def set_pickup_address
-
-  end
-
-  #set dropoff address
-  def set_dropoff_address
-
-  end
-
 
 end
